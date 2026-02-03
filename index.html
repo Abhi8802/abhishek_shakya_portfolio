@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Shakya - Frontend Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="web-overlay"></div>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="spider-logo"></div>
+        <h1>ABHISHEK SHAKYA</h1>
+        <p class="subtitle">Frontend Developer</p>
+        <p>Building amazing web experiences with the power and responsibility of clean code</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+        <a href="#skills" class="btn">View Skills</a>
+    </section>
+
+    <section id="about">
+        <div class="content-box">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hey there! I'm Abhishek Shakya, a passionate frontend developer who believes that with great code comes great user experiences.</p>
+                    <p>Just like Spider-Man swings through the city, I navigate through the web development landscape with agility and precision. I specialize in creating responsive, dynamic, and visually stunning websites that leave a lasting impression.</p>
+                    <p>My mission is to build web applications that are not just functional, but spectacular - combining modern design principles with clean, efficient code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="content-box">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Crafting semantic and accessible web structures that form the foundation of every great website.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Styling the web with modern layouts, animations, and responsive designs that look amazing on any device.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Bringing websites to life with interactive features and dynamic functionality.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>React</h3>
+                    <p>Building powerful component-based applications with modern JavaScript framework knowledge.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git</h3>
+                    <p>Version control mastery for efficient collaboration and code management.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>GitHub</h3>
+                    <p>Leveraging the power of open source and collaborative development workflows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content-box">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="f37a8b81-2b59-482a-97f3-6a25fe91d1a8">
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Abhishek Shakya. With great power comes great responsibility.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
